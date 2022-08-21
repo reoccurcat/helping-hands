@@ -7,7 +7,7 @@ home = expanduser("~")
 # Change these as you wish
 dangertypes = ['zip', '7z', 'rar']
 filetypes = ['exe', 'msi', 'zip']
-directory = f'{home}/Downloads'
+directory = 'Downloads'
 
 directorylist = os.listdir(f'{home}/{directory}')
 
